@@ -156,7 +156,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"name\": \"{{$randomFullName}}\",\r\n  \"email\": \"redukhan90+{{randomId}}@gmail.com\",\r\n  \"password\": \"1234\",\r\n  \"phone_number\": \"{{randomPhoneNumber}}\",\r\n  \"nid\": \"9876543300\",\r\n  \"role\": \"Agent\"\r\n}",
+              "raw": "{\r\n  \"name\": \"{{$randomFullName}}\",\r\n  \"email\": \"user+{{randomId}}@gmail.com\",\r\n  \"password\": \"1234\",\r\n  \"phone_number\": \"{{randomPhoneNumber}}\",\r\n  \"nid\": \"9876543300\",\r\n  \"role\": \"Agent\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -245,7 +245,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"name\": \"{{$randomFullName}}\",\r\n  \"email\": \"redukhan90+{{randomId}}@gmail.com\",\r\n  \"password\": \"1234\",\r\n  \"phone_number\": \"{{randomPhoneNumber}}\",\r\n  \"nid\": \"9876543300\",\r\n  \"role\": \"Customer\"\r\n}",
+              "raw": "{\r\n  \"name\": \"{{$randomFullName}}\",\r\n  \"email\": \"user+{{randomId}}@gmail.com\",\r\n  \"password\": \"1234\",\r\n  \"phone_number\": \"{{randomPhoneNumber}}\",\r\n  \"nid\": \"9876543300\",\r\n  \"role\": \"Customer\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -336,7 +336,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"name\": \"{{$randomFullName}}\",\r\n  \"email\": \"redukhan90+{{randomId}}@gmail.com\",\r\n  \"password\": \"1234\",\r\n  \"phone_number\": \"{{randomPhoneNumber}}\",\r\n  \"nid\": \"9876543300\",\r\n  \"role\": \"Customer\"\r\n}",
+              "raw": "{\r\n  \"name\": \"{{$randomFullName}}\",\r\n  \"email\": \"user+{{randomId}}@gmail.com\",\r\n  \"password\": \"1234\",\r\n  \"phone_number\": \"{{randomPhoneNumber}}\",\r\n  \"nid\": \"9876543300\",\r\n  \"role\": \"Customer\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -715,12 +715,12 @@
                 },
                 {
                   "key": "clientSecret",
-                  "value": "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",
+                  "value": "{{googleClientSecret}}",
                   "type": "string"
                 },
                 {
                   "key": "clientId",
-                  "value": "873982121484-1ip5t2rolob8agacv1ft0dd3qjc9dcnk.apps.googleusercontent.com",
+                  "value": "{{googleClientId}}",
                   "type": "string"
                 },
                 {
@@ -1031,12 +1031,12 @@
                 },
                 {
                   "key": "clientSecret",
-                  "value": "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",
+                  "value": "{{googleClientSecret}}",
                   "type": "string"
                 },
                 {
                   "key": "clientId",
-                  "value": "873982121484-1ip5t2rolob8agacv1ft0dd3qjc9dcnk.apps.googleusercontent.com",
+                  "value": "{{googleClientId}}",
                   "type": "string"
                 },
                 {
@@ -1347,12 +1347,12 @@
                 },
                 {
                   "key": "clientSecret",
-                  "value": "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",
+                  "value": "{{googleClientSecret}}",
                   "type": "string"
                 },
                 {
                   "key": "clientId",
-                  "value": "873982121484-1ip5t2rolob8agacv1ft0dd3qjc9dcnk.apps.googleusercontent.com",
+                  "value": "{{googleClientId}}",
                   "type": "string"
                 },
                 {
@@ -1596,7 +1596,7 @@
     },
     {
       "key": "gmailToken",
-      "value": "ya29.a0AQvPyIMxLOKVYJ3wLRBZ3y0hLs68aHZG-S4JBoB3ThIti7-mj9iuO3eVE-YnoTyfB5vMeJZvq2dsounlimGcpMirMvRUDXjHkZRoXD6hc7Mhp96-54BCwDNfxJ0NlVSAz2kKyRxwzlhkX0xdzr4tQCfmlKdrEBInHzQwBpwtF0QI8uZEtrJ9uCtPoSEQyyFA31ewn34aCgYKAZUSARcSFQHGX2Mi3W6k0WykzQL1RK0laATehg0206"
+      "value": ""
     },
     {
       "key": "emailId",
